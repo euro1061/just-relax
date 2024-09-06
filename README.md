@@ -2,6 +2,8 @@
 
 JustRelax เป็นเว็บแอปพลิเคชันที่ช่วยให้คุณผ่อนคลายและเพิ่มสมาธิด้วยการฟังเสียงธรรมชาติและเสียงแวดล้อมต่างๆ
 
+DEMO - [https://just-relax.vercel.app/]
+
 ![Logo](https://img2.pic.in.th/pic/We-Meeting-1.jpg)
 
 ## ฟีเจอร์หลัก
