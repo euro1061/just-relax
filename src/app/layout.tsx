@@ -35,7 +35,7 @@ export default function RootLayout({
       <body className={prompt.className}>
         <NextThemesProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >
