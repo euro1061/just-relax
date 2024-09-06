@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JustRelax
 
-## Getting Started
+JustRelax เป็นเว็บแอปพลิเคชันที่ช่วยให้คุณผ่อนคลายและเพิ่มสมาธิด้วยการฟังเสียงธรรมชาติและเสียงแวดล้อมต่างๆ
 
-First, run the development server:
+![Logo](https://img2.pic.in.th/pic/We-Meeting-1.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ฟีเจอร์หลัก
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🎵 เลือกและผสมผสานเสียงได้หลากหลาย
+- 🔊 ปรับระดับเสียงแต่ละเสียงได้ตามต้องการ
+- 💾 บันทึกและโหลดการตั้งค่าเป็นชุดเสียงโปรด
+- ⏲️ ตั้งเวลาปิดเสียงอัตโนมัติ
+- 🔀 สุ่มเลือกเสียง
+- 🏷️ กรองเสียงตามแท็ก
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## การติดตั้ง
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. โคลนโปรเจค:
+   ```
+   git clone https://github.com/your-username/justrelax.git
+   cd justrelax
+   ```
 
-## Learn More
+2. ติดตั้ง dependencies:
+   ```
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. รันโปรเจคในโหมด development:
+   ```
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. เปิดบราวเซอร์และไปที่ `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## การใช้งาน
 
-## Deploy on Vercel
+1. เลือกเสียงที่ต้องการโดยคลิกที่การ์ดเสียง
+2. ปรับระดับเสียงของแต่ละเสียงได้ในส่วน "เสียงที่เล่นตอนนี้"
+3. ใช้ปุ่มควบคุมหลักเพื่อเล่น/หยุดทั้งหมด และปรับระดับเสียงรวม
+4. บันทึกชุดเสียงโปรดโดยคลิกที่ "Save Preset"
+5. โหลดชุดเสียงที่บันทึกไว้จากส่วน "พรีเซ็ทเสียง"
+6. ใช้ฟีเจอร์ "Set Timer" เพื่อตั้งเวลาปิดเสียงอัตโนมัติ
+7. กดปุ่ม "Randomize" เพื่อสุ่มเลือกเสียง
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## เทคโนโลยีที่ใช้
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
+- [Howler.js](https://howlerjs.com/)
+
+## การมีส่วนร่วม
+
+หากคุณต้องการมีส่วนร่วมในการพัฒนา JustRelax สามารถทำได้โดย:
+
+1. Fork โปรเจค
+2. สร้าง branch ใหม่ (`git checkout -b feature/AmazingFeature`)
+3. Commit การเปลี่ยนแปลงของคุณ (`git commit -m 'Add some AmazingFeature'`)
+4. Push ไปยัง branch (`git push origin feature/AmazingFeature`)
+5. เปิด Pull Request
+
+## License
+
+โปรเจคนี้อยู่ภายใต้ MIT License - ดูรายละเอียดได้ที่ [LICENSE](LICENSE) ไฟล์
+
+## ติดต่อ
+
+Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+
+Project Link: [https://github.com/your-username/justrelax](https://github.com/your-username/justrelax)
